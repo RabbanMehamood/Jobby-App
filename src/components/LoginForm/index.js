@@ -55,6 +55,11 @@ class LoginForm extends Component {
           className="login-form-container"
           onSubmit={this.onSubmitLoginForm}
         >
+          {' '}
+          <div style={{backgroundColor: '#ffffff'}}>
+            <p>Username: rahul</p>
+            <p>password: rahul@2021</p>
+          </div>
           <div className="form-logo-container">
             <img src={websiteLogoInForm} alt="website logo" />
           </div>

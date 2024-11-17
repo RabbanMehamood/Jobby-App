@@ -4,8 +4,14 @@ import './index.css'
 
 const SimilarJobs = props => {
   const {similarJobData, employmentType} = props
-  const {companyLogoUrl, id, jobDescription, location, rating, title} =
-    similarJobData
+  const {
+    companyLogoUrl,
+    id,
+    jobDescription,
+    location,
+    rating,
+    title,
+  } = similarJobData
   return (
     <li className="similar-job-li-container">
       <div className="img-job-title-container">

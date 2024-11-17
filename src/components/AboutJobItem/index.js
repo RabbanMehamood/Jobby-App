@@ -25,6 +25,7 @@ class AboutJobItem extends Component {
   componentDidMount() {
     this.getJobData()
   }
+
   getJobData = async props => {
     const {match} = this.props
     const {params} = match
@@ -206,7 +207,7 @@ class AboutJobItem extends Component {
   )
 
   renderJobLoadingView = () => (
-    <div className="job-details-loader" testid="loader">
+    <div className="job-details-loader">
       <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </div>
   )
